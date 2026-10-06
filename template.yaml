@@ -4,7 +4,7 @@ Description: AquaVigil - leak detection and work-order API
 
 Globals:
   Function:
-    Runtime: python3.12
+    Runtime: python3.14
     Timeout: 15
     MemorySize: 512
 
