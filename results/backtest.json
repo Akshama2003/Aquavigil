@@ -1,0 +1,76 @@
+{
+  "config": {
+    "trials": 300,
+    "seed": 42,
+    "n_pipes": 60,
+    "n_sensors": 8,
+    "threshold": 3.0009533778970616
+  },
+  "overall": {
+    "n": 300,
+    "detection_rate": 0.5966666666666667,
+    "median_delay_h": 1.5,
+    "median_top1_error_pipes": 0.0,
+    "top1": 0.6145251396648045,
+    "naive_top1": 0.18994413407821228,
+    "top3": 0.8938547486033519,
+    "naive_top3": 0.46368715083798884,
+    "top5": 0.9497206703910615,
+    "naive_top5": 0.6145251396648045,
+    "random_top1": 0.016666666666666666,
+    "random_top3": 0.05,
+    "random_top5": 0.08333333333333333
+  },
+  "by_size": {
+    "small (<0.6)": {
+      "n": 87,
+      "detection_rate": 0.11494252873563218,
+      "median_delay_h": 12.125,
+      "median_top1_error_pipes": 0.0,
+      "top1": 0.6,
+      "naive_top1": 0.3,
+      "top3": 0.7,
+      "naive_top3": 0.8,
+      "top5": 0.8,
+      "naive_top5": 0.9,
+      "random_top1": 0.016666666666666666,
+      "random_top3": 0.05,
+      "random_top5": 0.08333333333333333
+    },
+    "medium (0.6-1.5)": {
+      "n": 129,
+      "detection_rate": 0.6744186046511628,
+      "median_delay_h": 2.5,
+      "median_top1_error_pipes": 1.0,
+      "top1": 0.4942528735632184,
+      "naive_top1": 0.1839080459770115,
+      "top3": 0.8505747126436781,
+      "naive_top3": 0.47126436781609193,
+      "top5": 0.9310344827586207,
+      "naive_top5": 0.6436781609195402,
+      "random_top1": 0.016666666666666666,
+      "random_top3": 0.05,
+      "random_top5": 0.08333333333333333
+    },
+    "large (>1.5)": {
+      "n": 84,
+      "detection_rate": 0.9761904761904762,
+      "median_delay_h": 1.25,
+      "median_top1_error_pipes": 0.0,
+      "top1": 0.7439024390243902,
+      "naive_top1": 0.18292682926829268,
+      "top3": 0.9634146341463414,
+      "naive_top3": 0.4146341463414634,
+      "top5": 0.9878048780487805,
+      "naive_top5": 0.5487804878048781,
+      "random_top1": 0.016666666666666666,
+      "random_top3": 0.05,
+      "random_top5": 0.08333333333333333
+    }
+  },
+  "false_alarms": {
+    "scenarios": 200,
+    "scenario_days": 3,
+    "with_alarm": 5
+  }
+}
