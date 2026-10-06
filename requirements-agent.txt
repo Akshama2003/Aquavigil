@@ -1,0 +1,3 @@
+# Optional: plain-language work orders via Amazon Bedrock
+strands-agents
+boto3
